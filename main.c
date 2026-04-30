@@ -24,6 +24,7 @@ int main() {
     char ciphertext[] = "!gsaH xinH ,fmaskgW rudT"; //Pesan Enkripsi
     char key[] = "tempkey";
 
+    printf("Bhap");
     printf("Encypted Text : %s\n", ciphertext);
     vigenereDecrypt(ciphertext, key);
     printf("Deciphered : %s\n", ciphertext);
